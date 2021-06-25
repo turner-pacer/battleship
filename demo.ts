@@ -1,6 +1,6 @@
-import { Game } from "./game.ts"
-import { BoardDirection } from "./board.ts"
-import { AttackedStatus } from "./battleship.ts"
+import { Game } from "./lib/game.ts"
+import { BoardDirection } from "./lib/board.ts"
+import { AttackedStatus } from "./lib/battleship.ts"
 
 console.log("---- create game ----");
 const game = new Game();

@@ -1,5 +1,5 @@
-import { Board, BoardDirection } from "./board.ts";
-import { BattleShip } from "./battleship.ts";
+import { Board, BoardDirection } from "../lib/board.ts";
+import { BattleShip } from "../lib/battleship.ts";
 import { assertEquals } from "https://deno.land/std@0.99.0/testing/asserts.ts";
 
 Deno.test("#placeShip - when there is oversize ship", () => {

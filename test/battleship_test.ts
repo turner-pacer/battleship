@@ -1,4 +1,4 @@
-import { AttackedStatus, BattleShip } from "./battleship.ts";
+import { AttackedStatus, BattleShip } from "../lib/battleship.ts";
 
 import { assertEquals } from "https://deno.land/std@0.99.0/testing/asserts.ts";
 
