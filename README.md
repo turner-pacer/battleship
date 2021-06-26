@@ -1,5 +1,7 @@
 # Battleship Game
 
+__NOTE__ as the discussion, the code is not necessary to be implemented in C# as per in the PDF; therefore, I chose TypeScript as it's one of the existing languages (*I think*)
+
 ## Requirement
 
 The task is to implement a Battleship state-tracker for a single player that must support the following logic:
@@ -22,9 +24,10 @@ Implemented 3 domain models:
 - make
 
 ### how to run
+
 - `make run`
 
-### how to test
-- `make test`
+## How to test
 
+- `make test`
 
